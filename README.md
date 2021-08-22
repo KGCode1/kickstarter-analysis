@@ -10,19 +10,19 @@ The purpose of this project is to visualize how campaigns fared based on funding
 
 ## Analysis and Challenges
 
-The analysis is based on kickstarter sample data. To limit the sample data filters applied on theater and play related  campaings which is main point of interest. Also filtered out any live events as the outcome of these play's can't be determined until they are ended. The main challenge with the data is to convert the timestamp fields to determine the actual dates for the campaings. The challenges related to outliers got eliminated once data limited to Theatres and plays. The additional tabs that are created to show details based on 'Outcomes based on Launch date' and 'Outcomes Based on Goals'
+The analysis is based on kickstarter sample data. To limit the sample data filters applied on theater and play related  campaings which is main point of interest. Also filtered out any live events as the outcome of these play's can't be determined until they are ended. The main challenge with the data is to convert the timestamp fields to determine the actual dates for the campaings. The challenges related to outliers got eliminated once data limited to Theatres and plays. The additional tabs that are created to show details based on ***'Outcomes based on Launch date'*** and ***'Outcomes Based on Goals'***.
 
 ### Analysis of Outcomes Based on Launch Date
 
-From kickstarter data additional filters applied to limit the data based on parent category  for 'Theatre'.  The pivot table shows the count of sucessful, failed and canceled outcomes based on month of campaign launch dates. The same data represented through chart as well as shown in below picture.
+From kickstarter data additional filters applied to limit the data based on parent category  for *'Theatre'*.  The pivot table shows the count of sucessful, failed and canceled outcomes based on month of campaign launch dates. The same data represented through chart as well as shown in below picture.
 
-![](image/Written_Report_Template/1629624780645.png)
+![](resources/Theatre_Outcomes_vs_Launch.PNG)
 
 ### Analysis of Outcomes Based on Goals
 
-From kickstarter analysis data additional filters applied based on parent category 'Theatre' and subcategory 'Goals'. As the goals are spread across multiple values a new category created based on the goal amount range with interval of $5000 as shown in tab 'Outcomes Based on Goals'. For each of this range the outcome percentages are calculated and shown in a table. The same percentages are represented on graph as shown below.
+From kickstarter analysis data additional filters applied based on parent category *'Theatre'* and subcategory *'Goals'*. As the goals are spread across multiple values a new category created based on the goal amount range with interval of $5000 as shown in tab 'Outcomes Based on Goals'. For each of this range the outcome percentages are calculated and shown in a table. The same percentages are represented on graph as shown below.
 
-![](image/Written_Report_Template/1629625188246.png)
+![](resources/Outcomes_vs_Goals.PNG)
 
 ### Challenges and Difficulties Encountered
 
